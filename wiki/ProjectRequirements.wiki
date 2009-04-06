@@ -1,4 +1,5 @@
 #summary Mandatory, optional and excluded requirements of the SPOT
+#sidebar TableOfContents
 
 = Project Requirements =
 == Mandatory Requirements ==
