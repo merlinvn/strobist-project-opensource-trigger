@@ -24,7 +24,7 @@ If you’re reading this you’re probably a strobist yourself. If not: Self-pro
 
 In order to find out why and how to use the SPOT the strobist website is the place to go. Take a look at Lighting101 (there are translations to several languages) and if you want to learn lighting systematically do the lighting 102 course. 
 
-The acronym SPOT was proposed for the original Strobit project in one of the related flickr discussions by David (see http://www.flickr.com/groups/strobist/discuss/ 72157602088957861/page2/#comment72157602086321038).
+The acronym SPOT was proposed for the original Strobit project in one of the related flickr discussions by David (see http://www.flickr.com/groups/strobist/discuss/72157602088957861/page2/#comment72157602086321038).
 
 == Commercial relatives ==
 The SPOT has one unique feature (manipulate the flash power at the transmitter) but it shares a common heritage with many commercial products: Pocket Wizards, Radio Poppers, Sky Commanders, Cactus Triggers and many proprietary studio flash radio triggers. An overview (in German) can be found at http://goodlight-photography. blogspot.com/2009/01/hier-findet-ihr-eine-ubersicht-uber-die.html.
