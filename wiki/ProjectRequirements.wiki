@@ -1,7 +1,9 @@
 #summary Mandatory, optional and excluded requirements of the SPOT
 
-= Mandatory Requirements =
+= Project Requirements =
 
-= Optional Requirements =
+== Mandatory Requirements ==
 
-= Excluded Requirements =
+== Optional Requirements ==
+
+== Excluded Requirements ==
