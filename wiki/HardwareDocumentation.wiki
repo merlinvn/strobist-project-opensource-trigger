@@ -2,7 +2,7 @@
 #sidebar TableOfContents
 
 = Hardware =
-== Overview ==
+== Block Diagram ==
 == Components ==
 === The Mictrocontroller: Atmel Mega8L ===
 === The Display: Nokia 3310 ===
