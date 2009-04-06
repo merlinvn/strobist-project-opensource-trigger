@@ -1,4 +1,5 @@
 #summary Provides project purpose, application, background and related work
+#sidebar TableOfContents
 
 = Project Overview =
 
