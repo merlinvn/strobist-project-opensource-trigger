@@ -4,7 +4,7 @@
 = Hardware =
 == Block Diagram ==
 == Components ==
-=== The Mictrocontroller: Atmel Mega8L ===
+=== The Microcontroller: Atmel Mega8L ===
 === The Display: Nokia 3310 ===
 === The Radio Module: HopeRF RFM12B ===
 == Circuit Diagram ==
