@@ -2,31 +2,31 @@
 
 = Project Requirements =
 == Mandatory Requirements ==
-# Synch speed <= 1/250s 
-# Reliable (>99%) firing at least 40m and through 2 brick walls
-# Less than 1 unintended trigger event per hour by radio interference
-# 4 flash groups with individual power adjustment
-# Power output adjustable in ½ stops 
-# Usage of fire and quench signals (film-area TTL flash protocol) 
-# Compatibility adaptable, prototypes for these systems:
-* Flashes Nikon SB-24 and SB-26
-* Cameras Sony A700 and Canon G9
-# User interface with 4 way joystick and small LCD
-# Standard batteries (1,5V AAA) shall give > 40h of operation
-# Transceiver (sender / receiver configurable) 
-# Test button + LED + off-switch
-# Coded signal for cooperation of same transceivers in vicinity
-# Dimensions <= 100x50x25mm (excl. antenna)
+ # Synch speed <= 1/250s 
+ # Reliable (>99%) firing at least 40m and through 2 brick walls
+ # Less than 1 unintended trigger event per hour by radio interference
+ # 4 flash groups with individual power adjustment
+ # Power output adjustable in ½ stops 
+ # Usage of fire and quench signals (film-area TTL flash protocol) 
+ # Compatibility adaptable, prototypes for these systems:
+ * Flashes Nikon SB-24 and SB-26
+ * Cameras Sony A700 and Canon G9
+ # User interface with 4 way joystick and small LCD
+ # Standard batteries (1,5V AAA) shall give > 40h of operation
+ # Transceiver (sender / receiver configurable) 
+ # Test button + LED + off-switch
+ # Coded signal for cooperation of same transceivers in vicinity
+ # Dimensions <= 100x50x25mm (excl. antenna)
 == Optional Requirements ==
-# Battery indicator
-# Signal strength indicator per flash
-# Beep when all activated remote flashes ready to fire
-# Warn if signal strength of activated flash drops below minimum
-# Relay mode for extended range
-# Learn new flash models for power output control
-# Port for firmware updates (ISP header)
-# Personalization: Support adaptation to new cameras and flashes
-# Choice between distance and speed (>50m or faster than 1/160s)
+ # Battery indicator
+ # Signal strength indicator per flash
+ # Beep when all activated remote flashes ready to fire
+ # Warn if signal strength of activated flash drops below minimum
+ # Relay mode for extended range
+ # Learn new flash models for power output control
+ # Port for firmware updates (ISP header)
+ # Personalization: Support adaptation to new cameras and flashes
+ # Choice between distance and speed (>50m or faster than 1/160s)
 == Excluded Requirements ==
-* TTL of any kind
-* High speed synch
+ * TTL of any kind
+ * High speed synch
