@@ -1,0 +1,13 @@
+#summary How to build the SPOT
+#sidebar TableOfContents
+
+= Hardware =
+== Overview ==
+== Components ==
+=== The Mictrocontroller: Atmel Mega8L ===
+=== The Display: Nokia 3310 ===
+=== The Radio Module: HopeRF RFM12B ===
+== Circuit Diagram ==
+== Part List ==
+== Circuit Board Design ==
+=== Pin Headers on the circuit board ===
