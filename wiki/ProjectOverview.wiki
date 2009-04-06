@@ -20,7 +20,7 @@ The online community at www.mikrocontroller.net and especially the posts by Bene
 The Nokia 3310 LCD driver is based on the work of Sylvain Bissonnette. The version I found did not work for me but two very important details did: The SPI interface protocol and the character set.
 
 == “Strobist”? ==
-If you’re reading this you’re probably a strobist yourself. If not: Self-proclaimed “Strobist” David Hobby has created the comprehensive off-camera flash learning platform strobist.blogspot.com. Motto: Less gear – more brain – better light. Flash triggers are the main exception to the rule of “less gear”. The associated online community at flickr remains friendly and supportive despite its tremendous growth. 
+If you’re reading this you’re probably a strobist yourself. If not: Self-proclaimed “Strobist” David Hobby has created the comprehensive off-camera flash learning platform http://strobist.blogspot.com. Motto: Less gear – more brain – better light. Flash triggers are the main exception to the rule of “less gear”. The associated online community at flickr remains friendly and supportive despite its tremendous growth. 
 
 In order to find out why and how to use the SPOT the strobist website is the place to go. Take a look at Lighting101 (there are translations to several languages) and if you want to learn lighting systematically do the lighting 102 course. 
 
