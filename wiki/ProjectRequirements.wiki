@@ -9,8 +9,8 @@
  # Power output adjustable in ½ stops 
  # Usage of fire and quench signals (film-area TTL flash protocol) 
  # Compatibility adaptable, prototypes for these systems:
- * Flashes Nikon SB-24 and SB-26
- * Cameras Sony A700 and Canon G9
+  # Flashes Nikon SB-24 and SB-26
+  # Cameras Sony A700 and Canon G9
  # User interface with 4 way joystick and small LCD
  # Standard batteries (1,5V AAA) shall give > 40h of operation
  # Transceiver (sender / receiver configurable) 
