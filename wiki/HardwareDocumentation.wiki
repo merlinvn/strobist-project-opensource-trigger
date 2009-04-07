@@ -8,6 +8,7 @@
 === The Microcontroller: Atmel Mega8L ===
 === The Display: Nokia 3310 ===
 <a href="http://www.flickr.com/photos/9601007@N03/3420349593/" title="LCD 3310 von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3557/3420349593_677bff4526.jpg" width="500" height="338" alt="LCD 3310" /></a>
+
 <a href="http://www.flickr.com/photos/9601007@N03/3420363561/" title="Connector LCD 3310 von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3298/3420363561_88418eef29.jpg" width="500" height="292" alt="Connector LCD 3310" /></a>
 === The Radio Module: HopeRF RFM12B ===
 == Circuit Diagram ==
