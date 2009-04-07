@@ -15,3 +15,4 @@
 == Circuit Board Design ==
 <a href="http://www.flickr.com/photos/9601007@N03/3421176408/" title="Circuitboard Topview von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3606/3421176408_6dbdfc6959.jpg" width="500" height="351" alt="Circuitboard Topview" /></a>
 === Pin Headers on the circuit board ===
+<a href="http://www.flickr.com/photos/9601007@N03/3421174824/" title="SPOT Pinheaders von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3309/3421174824_d302917621.jpg" width="500" height="482" alt="SPOT Pinheaders" /></a>
