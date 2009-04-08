@@ -1,19 +1,19 @@
 #summary How to build the SPOT
 #sidebar TableOfContents
 
-= Hardware =
-== Block Diagram ==
+= Introduction =
 <a href="http://www.flickr.com/photos/9601007@N03/3420380437/" title="Block Diagram von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3608/3420380437_5b460b3939_o.jpg" width="559" height="402" alt="Block Diagram" /></a> 
-== Components ==
-=== The Microcontroller: Atmel Mega8L ===
-=== The Display: Nokia 3310 ===
+_Block diagram of the SPOT components_
+= Components =
+== The Microcontroller: Atmel Mega8L ==
+== The Display: Nokia 3310 ==
 <a href="http://www.flickr.com/photos/9601007@N03/3420349593/" title="LCD 3310 von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3557/3420349593_677bff4526.jpg" width="500" height="338" alt="LCD 3310" /></a>
 
 <a href="http://www.flickr.com/photos/9601007@N03/3420363561/" title="Connector LCD 3310 von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3298/3420363561_88418eef29.jpg" width="500" height="292" alt="Connector LCD 3310" /></a>
-=== The Radio Module: HopeRF RFM12B ===
-== Circuit Diagram ==
+== The Radio Module: HopeRF RFM12B ==
+= Circuit Diagram =
 <a href="http://www.flickr.com/photos/9601007@N03/3421151642/" title="Spot-Layout von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3662/3421151642_29c26090e3_o.png" width="1106" height="701" alt="Spot-Layout" /></a>
-== Part List ==
+= Part List =
 Todo: "The rest"
 
 || Antenna || € 10 ||
@@ -25,9 +25,9 @@ Todo: "The rest"
 || *Sum* || *€ 47* ||
 
 
-== Circuit Board Design ==
+= Circuit Board Design =
 <a href="http://www.flickr.com/photos/9601007@N03/3421176408/" title="Circuitboard Topview von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3606/3421176408_6dbdfc6959.jpg" width="500" height="351" alt="Circuitboard Topview" /></a>
-== Pin Headers on the circuit board ==
+= Pin Headers on the circuit board =
 <a href="http://www.flickr.com/photos/9601007@N03/3421174824/" title="SPOT Pinheaders von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3309/3421174824_d302917621.jpg" width="500" height="482" alt="SPOT Pinheaders" /></a>
-== Assembly ==
+= Assembly =
 <a href="http://www.flickr.com/photos/9601007@N03/3421178772/" title="SPOT Interior von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3281/3421178772_3e3e02fcb0.jpg" width="500" height="384" alt="SPOT Interior" /></a>
