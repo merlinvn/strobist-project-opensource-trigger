@@ -1,0 +1,7 @@
+#summary This is open source for a reason! Join the club, it's free!
+#sidebar TableOfContents
+
+= How can I get involved? =
+
+ # Join this project!
+ # Join the associated discussion group: http://groups.google.com/group/spot-development
