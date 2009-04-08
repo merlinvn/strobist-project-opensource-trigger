@@ -1,0 +1,32 @@
+#summary Sorting ideas for the next releases.
+
+= Release 1.1 =
+
+ * Tidy up source code
+
+= Release 2 =
+
+ * Personalities: New flashes, new cameras
+ * Buzzer for improved user interface
+   * additional buzzer
+ * Beep on receiver as audio feedback for flash ready 
+   * additional optocoupler
+   * plug with 4 connectors to get the RDY-signal from the flash
+ * Beep on transmitter for “all connected non-zero-strength flashes ready”
+   * requires modifications to wireless protocol (“flash ready” polling as 3rd packet type)
+ * Introduce ½ stops of power
+ * Radio interference indicator
+   * Add a value indicator icon to the display
+   * Increase the value on each x received but rejected bytes
+   * Decrease the value every y seconds
+ * Low battery indicator
+   * RFM12 provides signal (?)
+
+= Release 3 =
+
+ * Design printed circuit board
+ * Add 1,5V -> 3V step-up converter circuit. Only 1 AAA cell needed!
+ * Improved synch speed 
+   * by means of reading the serial protocol between camera and flash for detecting shutter half-press and initializing the radio communication at that moment 
+   * minus intro sequence of 5 byte!
+   * possibly switch to one interrupt for every 4 bits (or less) instead of one per received byte
