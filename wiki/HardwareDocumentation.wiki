@@ -3,7 +3,9 @@
 
 = Introduction =
 <a href="http://www.flickr.com/photos/9601007@N03/3420380437/" title="Block Diagram von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3608/3420380437_5b460b3939_o.jpg" width="559" height="402" alt="Block Diagram" /></a> 
+
 _Block diagram of the SPOT components_
+
 = Components =
 == The Microcontroller: Atmel Mega8L ==
 == The Display: Nokia 3310 ==
