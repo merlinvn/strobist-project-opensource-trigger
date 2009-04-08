@@ -1,4 +1,5 @@
 #summary Sorting ideas for the next releases.
+#sidebar TableOfContents
 
 = Release 1.1 =
 
