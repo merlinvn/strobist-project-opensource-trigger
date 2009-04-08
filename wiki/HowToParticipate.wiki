@@ -5,3 +5,13 @@
 
  # Join this project!
  # Join the associated discussion group: http://groups.google.com/group/spot-development
+ # Build a pair of SPOTs!
+
+= Some ideas =
+
+ # Adopt this to the devices you need it for (flashes, cameras) and tell us how you did it! 
+ # Enhance the trivial (fixed) packet "checksum" (e.g. Hamming 8-4??)
+ # Write real-world experience reports and spread the word
+ # Design a project logo
+   # Spotted animals: Dalmatian (friendly, stylish), Cheetah (fast), ...?
+   # Something in a "spot" of light: Hot shoe flash, “SPOT”, ...
