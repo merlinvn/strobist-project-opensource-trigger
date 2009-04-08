@@ -1,4 +1,5 @@
 #summary Places to look for tutorials, inspiration, explanation, ...
+#sidebar TableOfContents
 
 Strobist website / blog
 http://strobist.blogspot.com/
@@ -18,4 +19,3 @@ http://www.mhohner.de/sony-minolta/flashcomp_techref.php#newshoe
 
 AVR GCC (German)
 http://www.mikrocontroller.net/articles/AVR-GCC-Tutorial
-
