@@ -9,13 +9,15 @@ The SPOT is a remote flash trigger radio transceiver. It has two modes of operat
  # As a receiver it is connected to a small hot shoe (“system”) flash
 
 == Predecessor projects and other resources ==
-This project was not built from scratch. Hardware and software from predecessors went into it.
+This project was not built from scratch. These predecessors provided inspiration:
 
- # Original “Strobit” project by “madeinoz68” (http://code.google.com/p/strobit/)
- # “Strobit M8” by J. Gentsch (http://blog.everythingrobotics.com/strobit/strobit-m08-files/)
- # “Commander Photon” by “Psinewave” (http://www.flickr.com/photos/psinewave/2564520184/) 
+ # Original *“Strobit”* project by “madeinoz68” (http://code.google.com/p/strobit/)
+ # *“Strobit M8”* by J. Gentsch (http://blog.everythingrobotics.com/strobit/strobit-m08-files/)
+ # *“Commander Photon”* by “Psinewave” (http://www.flickr.com/photos/psinewave/2564520184/) 
 
-The online community at www.mikrocontroller.net and especially the posts by Benedikt K. concerning the radio transceiver modules RMF12 were extremely helpful.
+The Strobit M8 circuit diagram was especially helpful.
+
+From the software side the tutorials at http://www.mikrocontroller.net and especially the discussion posts by Benedikt K. concerning the radio transceiver modules RMF12 were extremely helpful.
 
 The Nokia 3310 LCD driver is based on the work of Sylvain Bissonnette. The version I found did not work for me but two very important details did: The SPI interface protocol and the character set.
 
