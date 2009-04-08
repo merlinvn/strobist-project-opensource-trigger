@@ -1,8 +1,7 @@
 #summary Mandatory, optional and excluded requirements of the SPOT
 #sidebar TableOfContents
 
-= Project Requirements =
-== Mandatory Requirements ==
+= Mandatory Requirements =
  # Synch speed <= 1/250s 
  # Reliable (>99%) firing at least 40m and through 2 brick walls
  # Less than 1 unintended trigger event per hour by radio interference
@@ -18,7 +17,7 @@
  # Test button + LED + off-switch
  # Coded signal for cooperation of same transceivers in vicinity
  # Dimensions <= 100x50x25mm (excl. antenna)
-== Optional Requirements ==
+= Optional Requirements =
  # Battery indicator
  # Signal strength indicator per flash
  # Beep when all activated remote flashes ready to fire
@@ -28,6 +27,6 @@
  # Port for firmware updates (ISP header)
  # Personalization: Support adaptation to new cameras and flashes
  # Choice between distance and speed (>50m or faster than 1/160s)
-== Excluded Requirements ==
+= Excluded Requirements =
  * TTL of any kind
  * High speed synch
