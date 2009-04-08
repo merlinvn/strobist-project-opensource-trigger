@@ -1,0 +1,21 @@
+#summary Places to look for tutorials, inspiration, explanation, ...
+
+Strobist website / blog
+http://strobist.blogspot.com/
+
+
+Strobist community at flickr
+http://www.flickr.com/groups/strobist/discuss/
+
+
+Tangent Tutorials: Getting Started Soldering (and more)
+http://tangentsoft.net/elec/movies/
+
+
+Minolta/Sony Flash
+http://www.mhohner.de/sony-minolta/flashcomp_techref.php#newshoe
+
+
+AVR GCC (German)
+http://www.mikrocontroller.net/articles/AVR-GCC-Tutorial
+
