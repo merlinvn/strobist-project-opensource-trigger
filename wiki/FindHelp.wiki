@@ -1,21 +1,18 @@
 #summary Places to look for tutorials, inspiration, explanation, ...
 #sidebar TableOfContents
 
-Strobist website / blog
-http://strobist.blogspot.com/
+= Off-camera flash photography =
+ * Strobist website / blog http://strobist.blogspot.com/
+ * Strobist community at flickr http://www.flickr.com/groups/strobist/discuss/
 
+= Hardware DIY =
+ * Tangent Tutorials: Getting Started Soldering (and more) http://tangentsoft.net/elec/movies/
 
-Strobist community at flickr
-http://www.flickr.com/groups/strobist/discuss/
+= "Personalities" =
+ * Minolta/Sony Flash http://www.mhohner.de/sony-minolta/flashcomp_techref.php#newshoe
 
-
-Tangent Tutorials: Getting Started Soldering (and more)
-http://tangentsoft.net/elec/movies/
-
-
-Minolta/Sony Flash
-http://www.mhohner.de/sony-minolta/flashcomp_techref.php#newshoe
-
-
-AVR GCC (German)
-http://www.mikrocontroller.net/articles/AVR-GCC-Tutorial
+= Software development =
+ * Learn C for AVR (german) http://www.mikrocontroller.net/articles/AVR-GCC-Tutorial
+ * Tool: Eclipse (german) http://www.mikrocontroller.net/articles/AVR_Eclipse
+ * Tool: SVN with Eclipse http://www.ibm.com/developerworks/library/os-ecl-subversion/
+ * Tool: Google Code http://internetducttape.com/2007/03/03/howto_google_code_hosting_subversion_tortoisesvn/
