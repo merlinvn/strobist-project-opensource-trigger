@@ -1,9 +1,17 @@
 #summary Sorting ideas for the next releases.
 #sidebar TableOfContents
 
+= Release 1.0 =
+
+ * Prototype working, all mandatory requirements fulfilled 
+   * Synch-speed <= 1/250s _(ok!)_
+   * Distance > 30m _(ok, but better measurement needed)_
+   * Power adjustment only in full stops yet
+
 = Release 1.1 =
 
  * Tidy up source code
+ * Finish documentation
 
 = Release 2 =
 
@@ -14,8 +22,9 @@
    * additional optocoupler
    * plug with 4 connectors to get the RDY-signal from the flash
  * Beep on transmitter for “all connected non-zero-strength flashes ready”
-   * requires modifications to wireless protocol (“flash ready” polling as 3rd packet type)
+   * requires modifications to wireless protocol (“flash ready” polling as 3rd packet  type)
  * Introduce ½ stops of power
+ * Protocol choice via UI: High-Speed or Long-Distance ("SH"/"LD")
  * Radio interference indicator
    * Add a value indicator icon to the display
    * Increase the value on each x received but rejected bytes
