@@ -18,11 +18,13 @@
 = Release 2 =
 
  * Personalities: New flashes, new cameras
+ * Leave out oscillator and 22pF capacitors (use internal oscillator instead)
  * Buzzer for improved user interface
    * additional buzzer
- * Beep on receiver as audio feedback for flash ready 
+ * Read in flash ready signal
    * additional optocoupler
-   * plug with 4 connectors to get the RDY-signal from the flash
+   * replace headphone plug with slim RJ-10 / 4P4C
+ * Beep on receiver as audio feedback for flash ready 
  * Beep on transmitter for “all connected non-zero-strength flashes ready”
    * requires modifications to wireless protocol (“flash ready” polling as 3rd packet  type)
  * Introduce ½ stops of power
