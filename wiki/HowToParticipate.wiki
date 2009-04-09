@@ -10,6 +10,7 @@
 
 = Some ideas =
 
+ # Design a PCB (perhaps look at roadmap for Version 2 first, the hardware will change)
  # Adopt this to the devices you need it for (flashes, cameras) and tell us how you did it! 
  # Enhance the trivial (fixed) packet "checksum" (e.g. Hamming 8-4??)
  # Write real-world experience reports (based on the devices _*you*_ built) and spread the word
