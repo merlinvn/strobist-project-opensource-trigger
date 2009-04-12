@@ -3,7 +3,6 @@
 
 = How can I get involved? =
 
- * Join this project!
  * Join the associated discussion group: http://groups.google.com/group/spot-development
  * Build a pair of SPOTs!
  * Or do it like me: Learn from the stuff others did, sort your priorities, design your own devices and present the world with an enhanced new incarnation.
