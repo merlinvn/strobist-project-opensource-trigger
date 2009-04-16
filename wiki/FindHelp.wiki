@@ -27,6 +27,6 @@ I started with a combination of different tools and testboards. Eventually I wan
    * [http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_GCC_Toolchain AVR GCC Toolchain] 
 
 = Datasheets =
- * ATMega8
+ * [http://www.atmel.com/dyn/resources/prod_documents/doc2486.pdf ATMega8(L)]
  * LCD-Controller
  * RFM12B
