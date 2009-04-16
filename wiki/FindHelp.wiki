@@ -17,7 +17,7 @@
  * [http://www.mikrocontroller.net/articles/AVR_Eclipse Eclipse and AVR (german)] 
  *  [http://internetducttape.com/2007/03/03/howto_google_code_hosting_subversion_tortoisesvn/  "Google Code" subversion integration]
 
-= Toolchain =
+= Software tools =
 I started with a combination of different tools and testboards. Eventually I wanted it all integrated in one platform so I came to eclipse.
 
  * [http://www.eclipse.org/ Eclipse (Integrated Development Environment)]
