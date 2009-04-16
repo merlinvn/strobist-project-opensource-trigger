@@ -12,11 +12,15 @@
  * Minolta/Sony Flash http://www.mhohner.de/sony-minolta/flashcomp_techref.php#newshoe
 
 = Software development articles =
- * Learn C for AVR (german) http://www.mikrocontroller.net/articles/AVR-GCC-Tutorial
- * Eclipse (german) http://www.mikrocontroller.net/articles/AVR_Eclipse
- * Google Code http://internetducttape.com/2007/03/03/howto_google_code_hosting_subversion_tortoisesvn/
+ * [http://www.avrfreaks.net/ AVR development community]
+ * [http://www.mikrocontroller.net/articles/AVR-GCC-Tutorial Learn C for AVR (german)]
+ * [http://www.mikrocontroller.net/articles/AVR_Eclipse Eclipse and AVR (german)] 
+ * [http://internetducttape.com/2007/03/03/howto_google_code_hosting_subversion_tortoisesvn/
+ Google Code and subversion]
 
 = Toolchain =
+I started with a combination of different tools and testboards. Eventually I wanted it all integrated in one platform so I came to eclipse.
+
  * [http://www.eclipse.org/ Eclipse (Integrated Development Environment)]
  * Eclipse Plugins
    * [http://www.ibm.com/developerworks/library/os-ecl-subversion/ SVN, version management system)]
