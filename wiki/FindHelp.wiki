@@ -5,10 +5,14 @@
  * Strobist website / blog http://strobist.blogspot.com/
  * Strobist community at flickr http://www.flickr.com/groups/strobist/discuss/
 
-= Hardware DIY =
+= Hardware =
+ * [http://www.mikrocontroller.net/articles/RFM12 RFM12 (german)]
+ * [http://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus SPI Bus]
+
+= DIY =
  * Tangent Tutorials: Getting Started Soldering (and more) http://tangentsoft.net/elec/movies/
 
-= "Personalities" =
+= Flash "Personalities" =
  * Minolta/Sony Flash http://www.mhohner.de/sony-minolta/flashcomp_techref.php#newshoe
 
 = Software development articles =
