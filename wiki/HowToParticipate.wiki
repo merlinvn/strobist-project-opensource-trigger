@@ -7,7 +7,7 @@
  * Build a pair of SPOTs (take pictures of the process!)
  * Tell us what you learned
 
-= Some ideas =
+= Some ideas for improving the SPOT =
 
  * Simplify the case!! 
  * Design a PCB (perhaps look at roadmap for Version 2 first, the hardware will change)
