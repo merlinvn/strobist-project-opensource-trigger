@@ -16,3 +16,9 @@
  * Tool: Eclipse (german) http://www.mikrocontroller.net/articles/AVR_Eclipse
  * Tool: SVN with Eclipse http://www.ibm.com/developerworks/library/os-ecl-subversion/
  * Tool: Google Code http://internetducttape.com/2007/03/03/howto_google_code_hosting_subversion_tortoisesvn/
+
+= Toolchain =
+ * Eclipse (Integrated Development Environment)
+ * Eclipse Plugins
+   * SVN ("subversion" version management system)
+   * AVR (C for Atmel microcontrollers)
