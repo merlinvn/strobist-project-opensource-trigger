@@ -17,8 +17,9 @@
  * Google Code http://internetducttape.com/2007/03/03/howto_google_code_hosting_subversion_tortoisesvn/
 
 = Toolchain =
- * Eclipse (Integrated Development Environment) http://www.eclipse.org/
+ * [http://www.eclipse.org/ Eclipse (Integrated Development Environment)]
  * Eclipse Plugins
-   * SVN ("subversion" version management system)http://www.ibm.com/developerworks/library/os-ecl-subversion/
-   * AVR (C for Atmel microcontrollers) http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_Eclipse_Plugin
-   * AVR GCC Toolchain http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_GCC_Toolchain
+   * [http://www.ibm.com/developerworks/library/os-ecl-subversion/
+ SVN ("subversion" version management system)]
+   * [http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_Eclipse_Plugin AVR (C for Atmel microcontrollers)]
+   * [http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_GCC_Toolchain AVR GCC Toolchain] 
