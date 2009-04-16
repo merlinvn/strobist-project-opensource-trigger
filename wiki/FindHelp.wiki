@@ -28,6 +28,6 @@ I started with a combination of different tools and testboards. Eventually I wan
 
 = Datasheets =
  * [http://www.atmel.com/dyn/resources/prod_documents/doc2486.pdf ATMega8(L)]
- * [http://pdf1.alldatasheet.com/datasheet-pdf/view/18170/PHILIPS/PCD8544.html LCD-Controller PCD8544]
+ * [http://pdf1.alldatasheet.com/datasheet-pdf/view/18170/PHILIPS/PCD8544.html LCD 3310 controller PCD8544]
  * [http://www.hoperf.cn/pdf/rfm12b.pdf RFM12B]
  * [https://www.silabs.com/Support%20Documents/TechnicalDocs/Si4420.pdf RFM12B controller Si4420]
