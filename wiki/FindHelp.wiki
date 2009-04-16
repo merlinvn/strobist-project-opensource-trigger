@@ -11,14 +11,14 @@
 = "Personalities" =
  * Minolta/Sony Flash http://www.mhohner.de/sony-minolta/flashcomp_techref.php#newshoe
 
-= Software development =
+= Software development articles =
  * Learn C for AVR (german) http://www.mikrocontroller.net/articles/AVR-GCC-Tutorial
- * Tool: Eclipse (german) http://www.mikrocontroller.net/articles/AVR_Eclipse
- * Tool: SVN with Eclipse http://www.ibm.com/developerworks/library/os-ecl-subversion/
- * Tool: Google Code http://internetducttape.com/2007/03/03/howto_google_code_hosting_subversion_tortoisesvn/
+ * Eclipse (german) http://www.mikrocontroller.net/articles/AVR_Eclipse
+ * Google Code http://internetducttape.com/2007/03/03/howto_google_code_hosting_subversion_tortoisesvn/
 
 = Toolchain =
- * Eclipse (Integrated Development Environment)
+ * Eclipse (Integrated Development Environment) http://www.eclipse.org/
  * Eclipse Plugins
-   * SVN ("subversion" version management system)
-   * AVR (C for Atmel microcontrollers)
+   * SVN ("subversion" version management system)http://www.ibm.com/developerworks/library/os-ecl-subversion/
+   * AVR (C for Atmel microcontrollers) http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_Eclipse_Plugin
+   * AVR GCC Toolchain http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_GCC_Toolchain
