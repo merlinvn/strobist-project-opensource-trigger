@@ -19,7 +19,6 @@
 = Toolchain =
  * [http://www.eclipse.org/ Eclipse (Integrated Development Environment)]
  * Eclipse Plugins
-   * [http://www.ibm.com/developerworks/library/os-ecl-subversion/
- SVN ("subversion" version management system)]
-   * [http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_Eclipse_Plugin AVR (C for Atmel microcontrollers)]
+   * [http://www.ibm.com/developerworks/library/os-ecl-subversion/ SVN, version management system)]
+   * [http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_Eclipse_Plugin C for Atmel microcontrollers]
    * [http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_GCC_Toolchain AVR GCC Toolchain] 
