@@ -28,5 +28,5 @@ I started with a combination of different tools and testboards. Eventually I wan
 
 = Datasheets =
  * [http://www.atmel.com/dyn/resources/prod_documents/doc2486.pdf ATMega8(L)]
- * LCD-Controller
+ * [http://pdf1.alldatasheet.com/datasheet-pdf/view/18170/PHILIPS/PCD8544.html LCD-Controller PCD8544]
  * RFM12B
