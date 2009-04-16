@@ -6,6 +6,7 @@
  * Strobist community at flickr http://www.flickr.com/groups/strobist/discuss/
 
 = Hardware =
+ * [http://en.wikibooks.org/wiki/Embedded_Systems/Atmel_AVR AVR microcontroller]
  * [http://www.mikrocontroller.net/articles/RFM12 RFM12 (german)]
  * [http://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus SPI Bus]
 
