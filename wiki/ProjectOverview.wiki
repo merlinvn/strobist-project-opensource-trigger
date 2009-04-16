@@ -17,7 +17,7 @@ The Strobit M8 circuit diagram was especially helpful.
 
 From the software side the tutorials at http://www.mikrocontroller.net and especially the discussion posts by Benedikt K. concerning the radio transceiver modules RMF12 were extremely helpful.
 
-The Nokia 3310 LCD driver is based on the work of Sylvain Bissonnette. The version I found did not work for me but two very important details did: The SPI interface protocol and the character set.
+The Nokia 3310 LCD driver is based on the work of Sylvain Bissonnette (http://www.microsyl.com/). The version I found did not work for me but two very important details did: The SPI interface protocol and the character set.
 
 = “Strobist”? =
 If you’re reading this you’re probably a strobist yourself. If not: Self-proclaimed “Strobist” David Hobby has created the comprehensive off-camera flash learning platform http://strobist.blogspot.com. Motto: Less gear – more brain – better light. Flash triggers are the main exception to the rule of “less gear”. The associated online community at flickr remains friendly and supportive despite its tremendous growth. 
