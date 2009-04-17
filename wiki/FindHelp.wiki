@@ -2,20 +2,10 @@
 #labels Featured
 #sidebar TableOfContents
 
-= Off-camera flash photography =
- * Strobist website / blog http://strobist.blogspot.com/
- * Strobist community at flickr http://www.flickr.com/groups/strobist/discuss/
-
 = Hardware =
  * [http://en.wikibooks.org/wiki/Embedded_Systems/Atmel_AVR AVR microcontroller]
  * [http://www.mikrocontroller.net/articles/RFM12 RFM12 (german)]
  * [http://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus SPI Bus]
-
-= DIY =
- * Tangent Tutorials: Getting Started Soldering (and more) http://tangentsoft.net/elec/movies/
-
-= Flash "Personalities" =
- * Minolta/Sony Flash http://www.mhohner.de/sony-minolta/flashcomp_techref.php#newshoe
 
 = Software development articles =
  * [http://www.avrfreaks.net/ AVR development community]
@@ -40,3 +30,13 @@ I started with a combination of different tools and testboards. Eventually I wan
  * [http://pdf1.alldatasheet.com/datasheet-pdf/view/18170/PHILIPS/PCD8544.html LCD 3310 controller PCD8544]
  * [http://www.hoperf.cn/pdf/rfm12b.pdf RFM12B]
  * [https://www.silabs.com/Support%20Documents/TechnicalDocs/Si4420.pdf RFM12B controller Si4420]
+
+= DIY =
+ * Tangent Tutorials: Getting Started Soldering (and more) http://tangentsoft.net/elec/movies/
+
+= Flash "Personalities" =
+ * Minolta/Sony Flash http://www.mhohner.de/sony-minolta/flashcomp_techref.php#newshoe
+
+= Off-camera flash photography =
+ * Strobist website / blog http://strobist.blogspot.com/
+ * Strobist community at flickr http://www.flickr.com/groups/strobist/discuss/
