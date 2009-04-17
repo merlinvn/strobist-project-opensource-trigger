@@ -1,5 +1,6 @@
 #summary Places to look for tutorials, inspiration, explanation, ...
 #sidebar TableOfContents
+#Featured
 
 = Off-camera flash photography =
  * Strobist website / blog http://strobist.blogspot.com/
