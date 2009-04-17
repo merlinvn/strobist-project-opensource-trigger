@@ -18,6 +18,7 @@
 
 = Software development articles =
  * [http://www.avrfreaks.net/ AVR development community]
+ * [http://www.nongnu.org/avr-libc/user-manual/modules.html AVR libc]
  * [http://www.mikrocontroller.net/articles/AVR-GCC-Tutorial Learn C for AVR (german)]
  * [http://www.mikrocontroller.net/articles/AVR_Eclipse Eclipse and AVR (german)] 
  *  [http://internetducttape.com/2007/03/03/howto_google_code_hosting_subversion_tortoisesvn/  "Google Code" subversion integration]
