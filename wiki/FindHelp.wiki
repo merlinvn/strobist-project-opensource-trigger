@@ -20,11 +20,10 @@
  * [http://www.avrfreaks.net/ AVR development community]
  * [http://www.nongnu.org/avr-libc/user-manual/modules.html AVR libc]
  * [http://svnbook.red-bean.com/index.en.html Subversion book]
-
+ *  [http://internetducttape.com/2007/03/03/howto_google_code_hosting_subversion_tortoisesvn/  "Google Code" subversion integration]
 _German_
  * [http://www.mikrocontroller.net/articles/AVR-GCC-Tutorial Learn C for AVR (german)]
  * [http://www.mikrocontroller.net/articles/AVR_Eclipse Eclipse and AVR (german)] 
- *  [http://internetducttape.com/2007/03/03/howto_google_code_hosting_subversion_tortoisesvn/  "Google Code" subversion integration]
 
 = Software tools =
 I started with a combination of different tools and testboards. Eventually I wanted it all integrated in one platform so I came to eclipse.
