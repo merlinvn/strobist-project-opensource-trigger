@@ -28,9 +28,10 @@ I started with a combination of different tools and testboards. Eventually I wan
 
  * [http://www.eclipse.org/ Eclipse (Integrated Development Environment)]
  * Eclipse Plugins
-   * [http://www.ibm.com/developerworks/library/os-ecl-subversion/ SVN (version management system)]
+   * [http://www.ibm.com/developerworks/library/os-ecl-subversion/ SVN plugin (version management system)]
    * [http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_Eclipse_Plugin AVR plugin]
    * [http://avr-eclipse.sourceforge.net/wiki/index.php/The_AVR_GCC_Toolchain AVR GCC Toolchain] 
+ * [http://svnbook.red-bean.com/index.en.html Subversion book]
 
 = Datasheets =
  * [http://www.atmel.com/dyn/resources/prod_documents/doc2486.pdf ATMega8(L)]
