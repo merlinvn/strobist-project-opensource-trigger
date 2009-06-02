@@ -49,6 +49,10 @@ rf12_setpower(0, 6);	// power 1mW, 120kHz frequency shift
 
 _Please click for a bigger version_
 
+== Circuit Diagram Design Issues ==
+
+ *Programming is done with 5V - dangerous for the display!
+
 = Part List =
 Todo: "The rest"
 
