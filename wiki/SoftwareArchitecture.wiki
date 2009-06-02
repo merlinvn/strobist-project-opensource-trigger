@@ -1,0 +1,36 @@
+#summary Software Architecture
+
+= Interrupt Driven Control Flow =
+
+<a href="http://www.flickr.com/photos/9601007@N03/3588834792/" title="Interrupt-driven control flow von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3333/3588834792_d43ba85e5c_o.jpg" width="614" height="293" alt="Interrupt-driven control flow" /></a>
+
+= User Interface =
+
+The SPOT is controlled by a 4-way joystick button. If pressed down in Tx mode it transmits a fire signal. In Rx mode it fires the connected flash. The four directions are used for menu navigation as indicated below.
+
+<a href="http://www.flickr.com/photos/9601007@N03/3588026887/" title="User interface navigation von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3417/3588026887_38f333ec70_o.jpg" width="702" height="446" alt="User interface navigation" /></a>
+
+= Radio Protocol =
+== Packet definition ==
+One packet consists of 2 bytes as the following diagram shows:
+
+<a href="http://www.flickr.com/photos/9601007@N03/3588026923/" title="Radio packet definition von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3196/3588026923_3c19ce32cf_o.jpg" width="722" height="135" alt="Radio packet definition" /></a>
+
+== Checksum: Hamming 8-4 ==
+
+Right now, a static code is used. Investigate if improvement is worth the effort.
+See http://en.wikipedia.org/wiki/Hamming_code
+
+== Fire command ==
+A fire command is accepted by a receiver if
+1.	cs is correct 
+2.	f = 1
+3.	id matches receiver’s id
+
+== Set power and acknowledge command ==
+A set power command is accepted by a receiver if
+1.	cs is correct
+2.	id matches receiver’s id
+3.	group matches receiver’s group
+
+After receiving a valid set power command the receiver waits for 1ms (to give the transmitter time to get ready for reception) and then transmits the set power command back as an acknowledgement. The transmitter waits 10ms for the acknowledgment. If it is sent within that timeframe the new power setting is displayed. If not, the currently selected strength blinks twice as a user feedback for an unsuccessful transmission and remains unchanged.
