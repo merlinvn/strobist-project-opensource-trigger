@@ -43,7 +43,8 @@ rf12_setpower(0, 6);	// power 1mW, 120kHz frequency shift
 }}}
 
 = Circuit Diagram =
-<a href="http://www.flickr.com/photos/9601007@N03/3421151642/" title="Spot-Layout von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3662/3421151642_29c26090e3_o.png" width="1106" height="701" alt="Spot-Layout" /></a>
+<a href="http://www.flickr.com/photos/9601007@N03/3421151642/" title="Spot-Layout von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3662/3421151642_f534eb6698.jpg" width="500" height="317" alt="Spot-Layout" /></a>
+_Please click for a bigger version_
 = Part List =
 Todo: "The rest"
 
