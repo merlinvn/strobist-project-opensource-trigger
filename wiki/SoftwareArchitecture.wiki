@@ -1,4 +1,5 @@
 #summary Software Architecture
+#sidebar TableOfContents
 
 = Interrupt Driven Control Flow =
 
@@ -23,14 +24,14 @@ See http://en.wikipedia.org/wiki/Hamming_code
 
 == Fire command ==
 A fire command is accepted by a receiver if
-1.	cs is correct 
-2.	f = 1
-3.	id matches receiver’s id
+ # cs is correct 
+ # f = 1
+ # id matches receiver’s id
 
 == Set power and acknowledge command ==
 A set power command is accepted by a receiver if
-1.	cs is correct
-2.	id matches receiver’s id
-3.	group matches receiver’s group
+ # cs is correct
+ # id matches receiver’s id
+ # group matches receiver’s group
 
 After receiving a valid set power command the receiver waits for 1ms (to give the transmitter time to get ready for reception) and then transmits the set power command back as an acknowledgement. The transmitter waits 10ms for the acknowledgment. If it is sent within that timeframe the new power setting is displayed. If not, the currently selected strength blinks twice as a user feedback for an unsuccessful transmission and remains unchanged.
