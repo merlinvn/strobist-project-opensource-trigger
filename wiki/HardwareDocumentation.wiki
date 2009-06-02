@@ -8,11 +8,40 @@ _Block diagram of the SPOT components_
 
 = Components =
 == The Microcontroller: Atmel Mega8L ==
+_8-Kbyte self-programming Flash Program Memory, 1-Kbyte SRAM, 512 Byte EEPROM, 6 or 8 Channel 10-bit A/D-converter. Up to 16 MIPS throughput at 16 Mhz. 2.7 - 5.5 Volt operation._
+
+Datasheet: http://www.atmel.com/dyn/resources/prod_documents/doc2486.pdf
+
 == The Display: Nokia 3310 ==
+Display requirements were size, low energy consumption, sufficient resolution and ease of use. The Nokia 3310 can be found online for approximately €6.- and has been used in similar projects. 
 <a href="http://www.flickr.com/photos/9601007@N03/3420349593/" title="LCD 3310 von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3557/3420349593_677bff4526.jpg" width="500" height="338" alt="LCD 3310" /></a>
 
+The display is connected to the microcontroller via the SPI bus (signals “SDIN” and “SCK”) that is also used for the radio module. The addressee of SPI data is determined by chip select (“CS”, “SCE”) signals. The 3310s’ D/C signal differentiates data from command packets. VCC, GND and VOUT provide energy to the display. The principal hurdle is connecting wires to it.
 <a href="http://www.flickr.com/photos/9601007@N03/3420363561/" title="Connector LCD 3310 von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3298/3420363561_88418eef29.jpg" width="500" height="292" alt="Connector LCD 3310" /></a>
 == The Radio Module: HopeRF RFM12B ==
+_Hope’s RF12B is a single chip, low power, multi-channel FSK transceiver designed for use in applications requiring FCC or ETSI conformance for unlicensed use in the 433, 868 and 915 MHz bands._ (cited from http://www.hoperf.com/pro/RF12B.html)
+
+Predecessor projects report that the modules’ documentation contains several bugs. However the datasheet of the microprocessor embedded in the HopeRF module seems to be much more reliable.
+
+The following configuration options (based on Benedikt K.’s experiences with his RS232 radio bridge project) were used (numbers refer to the datasheet):
+
+{{{
+rf12_trans(0xC0E0);	// AVR CLK: 10MHz (14. Low Batt. Detector & 
+			//       MC Clock Div. Comm.)
+rf12_trans(0x80D7);	// Enable FIFO (1. Config Setting Command)
+rf12_trans(0xC2AB);	// Data Filter: internal (6. Data Filter Comm.)
+rf12_trans(0xCA81);	// Set FIFO mode (7. FIFO and Reset Mode Comm.)
+rf12_trans(0xE000);	// disable wakeuptimer (12.)
+rf12_trans(0xC800);	// disable low duty cycle (13.)
+rf12_trans(0xC4F7);	// AFC settings: autotuning: -10kHz...+7,5kHz (9.)
+
+rf12_setfreq(RF12FREQ(433.92));	// set frequency to 433,92MHz
+rf12_setbandwidth(4, 1, 4);	// 200kHz bandwidth, -6dB amplification, DRSSI
+				//       threshold: -79dBm
+rf12_setbaud(57600);	// 57600 baud
+rf12_setpower(0, 6);	// power 1mW, 120kHz frequency shift
+}}}
+
 = Circuit Diagram =
 <a href="http://www.flickr.com/photos/9601007@N03/3421151642/" title="Spot-Layout von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3662/3421151642_29c26090e3_o.png" width="1106" height="701" alt="Spot-Layout" /></a>
 = Part List =
