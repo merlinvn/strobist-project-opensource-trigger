@@ -51,7 +51,7 @@ _Please click for a bigger version_
 
 == Circuit Diagram Design Issues ==
 
- *Programming is done with 5V - dangerous for the display!
+ * Programming is done with 5V - dangerous for the display!
 
 = Part List =
 Todo: "The rest"
