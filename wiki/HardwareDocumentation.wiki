@@ -14,9 +14,11 @@ Datasheet: http://www.atmel.com/dyn/resources/prod_documents/doc2486.pdf
 
 == The Display: Nokia 3310 ==
 Display requirements were size, low energy consumption, sufficient resolution and ease of use. The Nokia 3310 can be found online for approximately €6.- and has been used in similar projects. 
+
 <a href="http://www.flickr.com/photos/9601007@N03/3420349593/" title="LCD 3310 von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3557/3420349593_677bff4526.jpg" width="500" height="338" alt="LCD 3310" /></a>
 
 The display is connected to the microcontroller via the SPI bus (signals “SDIN” and “SCK”) that is also used for the radio module. The addressee of SPI data is determined by chip select (“CS”, “SCE”) signals. The 3310s’ D/C signal differentiates data from command packets. VCC, GND and VOUT provide energy to the display. The principal hurdle is connecting wires to it.
+
 <a href="http://www.flickr.com/photos/9601007@N03/3420363561/" title="Connector LCD 3310 von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3298/3420363561_88418eef29.jpg" width="500" height="292" alt="Connector LCD 3310" /></a>
 == The Radio Module: HopeRF RFM12B ==
 _Hope’s RF12B is a single chip, low power, multi-channel FSK transceiver designed for use in applications requiring FCC or ETSI conformance for unlicensed use in the 433, 868 and 915 MHz bands._ (cited from http://www.hoperf.com/pro/RF12B.html)
