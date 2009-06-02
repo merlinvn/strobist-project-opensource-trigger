@@ -1,17 +1,17 @@
 #summary Software Architecture
 #sidebar TableOfContents
 
-= Interrupt Driven Control Flow =
+= spot.c: Interrupt Driven Control Flow =
 
 <a href="http://www.flickr.com/photos/9601007@N03/3588834792/" title="Interrupt-driven control flow von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3333/3588834792_d43ba85e5c_o.jpg" width="614" height="293" alt="Interrupt-driven control flow" /></a>
 
-= User Interface =
+= lcd3110.c: User Interface =
 
 The SPOT is controlled by a 4-way joystick button. If pressed down in Tx mode it transmits a fire signal. In Rx mode it fires the connected flash. The four directions are used for menu navigation as indicated below.
 
 <a href="http://www.flickr.com/photos/9601007@N03/3588026887/" title="User interface navigation von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3417/3588026887_38f333ec70_o.jpg" width="702" height="446" alt="User interface navigation" /></a>
 
-= Radio Protocol =
+= rfm12.c: Radio Protocol =
 == Packet definition ==
 One packet consists of 2 bytes as the following diagram shows:
 
