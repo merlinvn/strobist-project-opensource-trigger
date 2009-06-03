@@ -123,7 +123,7 @@ void onCursor( CursorAction action ) {
 
 }}}
 
-=== Type definition: Screen Symbol ===
+=== Type definition: LCD Symbol ===
 
 {{{
 struct lcdSymbol {
@@ -161,7 +161,7 @@ static void paintSymbols() {
 
 		gotoXY(currSymbol->row, currSymbol->line);
 
-		// paint caption fist (if there is one)
+		// paint caption first (if there is one)
 		if( currSymbol->caption != 0 ) {
 			currCodeID = 0;
 			do {
@@ -187,7 +187,7 @@ static void paintSymbols() {
 
 }}}
 
-= rfm12.c: Radio Protocol =
+= Radio Protocol =
 == Packet definition ==
 One packet consists of 2 bytes as the following diagram shows:
 
@@ -211,3 +211,11 @@ A set power command is accepted by a receiver if
  # group matches receiver’s group
 
 After receiving a valid set power command the receiver waits for 1ms (to give the transmitter time to get ready for reception) and then transmits the set power command back as an acknowledgement. The transmitter waits 10ms for the acknowledgment. If it is sent within that timeframe the new power setting is displayed. If not, the currently selected strength blinks twice as a user feedback for an unsuccessful transmission and remains unchanged.
+
+== Excerpts from rfm12.c ==
+
+{{{
+
+
+
+}}}
