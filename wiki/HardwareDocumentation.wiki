@@ -1,4 +1,5 @@
 #summary How to build the SPOT
+#labels Phase-Design
 #sidebar TableOfContents
 
 = Introduction =
