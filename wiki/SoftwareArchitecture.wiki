@@ -123,10 +123,19 @@ void onCursor( CursorAction action ) {
 
 }}}
 
-=== Type: Screen Symbol ===
+=== Type definition: Screen Symbol ===
 
 {{{
-
+struct lcdSymbol {
+	byte	val;
+	byte	row;
+	byte	line;
+	byte	nbValues;
+	byte	maxLen;
+	byte*	caption;	// 0 if unused; e.g. "ID "
+	byte**	line1Values;	// e.g. "Full", "1/2", "1/4"
+	byte**	line2Values;	// 0 if unused
+};
 
 }}}
 
@@ -158,7 +167,7 @@ static void paintSymbols() {
 			do {
 				currCode = currSymbol->caption[currCodeID++];
 				if (currCode != 0xff) {
-					writeData( currCode );//<< 1 );
+					writeData( currCode );
 				}
 			} while (currCode!=0xff);
 		}
