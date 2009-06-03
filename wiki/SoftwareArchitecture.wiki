@@ -68,7 +68,7 @@ The SPOT is controlled by a 4-way joystick button. If pressed down in Tx mode it
 <a href="http://www.flickr.com/photos/9601007@N03/3588026887/" title="User interface navigation von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3417/3588026887_38f333ec70_o.jpg" width="702" height="446" alt="User interface navigation" /></a>
 
 == Excerpts from lcd3110.c ==
-=== Button handler ===
+=== Joystick event handler ===
 {{{
 
 void onCursor( CursorAction action ) {
@@ -121,6 +121,60 @@ void onCursor( CursorAction action ) {
 	}
 }
 
+}}}
+
+=== Type: Screen Symbol ===
+
+{{{
+
+
+}}}
+
+=== Painting the screen ===
+
+{{{
+
+static void paintSymbols() {
+
+	byte currCodeID = 0;
+	byte currCode = 0;
+	byte symID = 0;
+	struct lcdSymbol* currSymbol;
+
+	for (symID = 0; symID < nbSymbols; symID++) { // loop: paint all symbols
+
+		currSymbol = lcdSymbols[symID];
+ 
+		// delete previous cursor
+			// ... 
+		// show current cursor and clear previous value
+			// ... 
+
+		gotoXY(currSymbol->row, currSymbol->line);
+
+		// paint caption fist (if there is one)
+		if( currSymbol->caption != 0 ) {
+			currCodeID = 0;
+			do {
+				currCode = currSymbol->caption[currCodeID++];
+				if (currCode != 0xff) {
+					writeData( currCode );//<< 1 );
+				}
+			} while (currCode!=0xff);
+		}
+
+		// paint 1st line of current value
+		currCodeID = 0;
+		do {
+			currCode = currSymbol->line1Values[currSymbol->val][currCodeID++];
+			if (currCode != 0xff)
+				writeData( currCode );//<< 1);
+		} while (currCode!=0xff);
+ 
+		// paint 2nd line of current value (if there is one)
+			// ... 
+	}
+}
 
 }}}
 
