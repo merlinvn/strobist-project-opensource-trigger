@@ -1,9 +1,29 @@
 #summary Software Architecture
 #sidebar TableOfContents
 
-= spot.c: Interrupt Driven Control Flow =
+= Interrupt Driven Control Flow =
 
 <a href="http://www.flickr.com/photos/9601007@N03/3588834792/" title="Interrupt-driven control flow von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3333/3588834792_d43ba85e5c_o.jpg" width="614" height="293" alt="Interrupt-driven control flow" /></a>
+
+== Excerpts from spot.c ==
+{{{
+// shutter interrupt
+ISR(INT0_vect) {
+        transmitFire( getID() );
+        PORTD |= LCD_BL;
+        setTimer(0, 300);
+}
+
+// FIFO ready interrupt 
+ISR(INT1_vect) {
+        onReceive( rf12_trans(0xB000) );
+}
+
+// timer interrupt: counted to 256 (at 1/8 clock)
+ISR(TIMER0_OVF_vect) {
+        counter++;
+}
+}}}
 
 = lcd3110.c: User Interface =
 
