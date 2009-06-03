@@ -61,11 +61,68 @@ int main (void) {
 }
 
 }}}
-= lcd3110.c: User Interface =
+= User Interface =
 
 The SPOT is controlled by a 4-way joystick button. If pressed down in Tx mode it transmits a fire signal. In Rx mode it fires the connected flash. The four directions are used for menu navigation as indicated below.
 
 <a href="http://www.flickr.com/photos/9601007@N03/3588026887/" title="User interface navigation von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3417/3588026887_38f333ec70_o.jpg" width="702" height="446" alt="User interface navigation" /></a>
+
+== Excerpts from lcd3110.c ==
+=== Button handler ===
+{{{
+
+void onCursor( CursorAction action ) {
+
+// ...
+ 
+	// if Tx strength change: transmit change and wait for acknowledge, don't changes values
+	if( (cursorPos>=0) && (cursorPos<=3) && (lcdSymbols==txSymbols) && ((action==CURSOR_LEFT) || (action==CURSOR_RIGHT)) ) {
+		if( action == CURSOR_LEFT) {
+			prevVal = lcdSymbols[cursorPos]->val;
+			currVal = (prevVal + (lcdSymbols[cursorPos]->nbValues) -1) % (lcdSymbols[cursorPos]->nbValues);
+		} else {  // CURSOR_RIGHT
+			prevVal = lcdSymbols[cursorPos]->val;
+			currVal = (prevVal+1) % (lcdSymbols[cursorPos]->nbValues);
+		}
+		transmitPower(idSym.val, cursorPos, currVal);
+		waitingForACK = 1;
+		setTimer(2, 20); // wait 20ms for ACK
+		setRxMode();
+	} else {
+		switch( action ) {  // menu change
+			case CURSOR_DOWN:
+				prevCursor = cursorPos;
+				cursorPos = (cursorPos +1) % nbSymbols;
+				break;
+ 
+			case CURSOR_LEFT:
+				prevVal = lcdSymbols[cursorPos]->val;
+				currVal = (prevVal + (lcdSymbols[cursorPos]->nbValues) -1) % (lcdSymbols[cursorPos]->nbValues);
+				lcdSymbols[cursorPos]->val = currVal;
+				changeVal(prevVal, currVal);
+				break;
+
+			// ... similar for UP and RIGHT
+
+			case CURSOR_PRESS:
+				if( lcdSymbols == txSymbols ) {	// if transmitter: send fire
+					transmitFire(getID());
+					PORTD |= LCD_BL;
+					setTimer(0, 300);
+				} else {			// if receiver: fire
+					PORTD |= (1<<PD5);	// LED on for 300ms
+					setTimer(0, 300);
+					fireFlash();
+				}
+ 
+				break;
+		}
+		paintSymbols(); // refresh the screen
+	}
+}
+
+
+}}}
 
 = rfm12.c: Radio Protocol =
 == Packet definition ==
