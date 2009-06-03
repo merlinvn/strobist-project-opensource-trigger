@@ -1,4 +1,4 @@
-#summary Software Architecture
+#summary Help for understanding the structure of the source code
 #sidebar TableOfContents
 
 = Interrupt Driven Control Flow =
