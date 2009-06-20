@@ -71,4 +71,6 @@ Todo: "The rest"
 = Pin Headers on the circuit board =
 <a href="http://www.flickr.com/photos/9601007@N03/3421174824/" title="SPOT Pinheaders von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3309/3421174824_d302917621.jpg" width="500" height="482" alt="SPOT Pinheaders" /></a>
 = Assembly =
+<a href="http://www.flickr.com/photos/9601007@N03/3643918003/" title="The other side of the coin von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3639/3643918003_8d6e099fc7.jpg" width="500" height="370" alt="The other side of the coin" /></a>
+
 <a href="http://www.flickr.com/photos/9601007@N03/3421178772/" title="SPOT Interior von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3281/3421178772_3e3e02fcb0.jpg" width="500" height="384" alt="SPOT Interior" /></a>
