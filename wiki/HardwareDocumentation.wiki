@@ -53,6 +53,7 @@ _Please click for a bigger version_
 == Circuit Diagram Design Issues ==
 
  * Programming is done with 5V - dangerous for the display!
+ * Resistors for limiting the OC-LED current need to be 30 Ohm instead of 100 Ohm!
 
 = Part List =
 Todo: "The rest"
