@@ -24,27 +24,27 @@ The display is connected to the microcontroller via the SPI bus (signals “SDIN
 
 Connectors:
 
- *VCC (power +) 
- *SCK (SPI clock)
- *SDIN (SPI data line)
- *D/C (data / command)
- *SCE (chip select)
- *GND (power -)
- *VOUT (over capacitor to power -)
- *RES (reset)
+ * VCC (power +) 
+ * SCK (SPI clock)
+ * SDIN (SPI data line)
+ * D/C (data / command)
+ * SCE (chip select)
+ * GND (power -)
+ * VOUT (over capacitor to power -)
+ * RES (reset)
 
 On the circuit board you can find two 4-pin connectors for the display 
 (compare 3rd picture from the bottom):
 
- *VCC --> VCC
- *RES --> RES
- *D/C --> D/C
- *CS --> SCE
+ * VCC --> VCC
+ * RES --> RES
+ * D/C --> D/C
+ * CS --> SCE
 
- *GND --> GND
- *SCK --> SCK
- *CAP --> VOUT
- *SI --> SDIN
+ * GND --> GND
+ * SCK --> SCK
+ * CAP --> VOUT
+ * SI --> SDIN
 
 == The Radio Module: HopeRF RFM12B ==
 _Hope’s RF12B is a single chip, low power, multi-channel FSK transceiver designed for use in applications requiring FCC or ETSI conformance for unlicensed use in the 433, 868 and 915 MHz bands._ (cited from http://www.hoperf.com/pro/RF12B.html)
