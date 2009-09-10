@@ -225,13 +225,17 @@ After receiving a valid set power command the receiver waits for 1ms (to give th
 
 _1 µs = 1 micro second = 10E-6 s = 1/1.000.000 s_
 
-|| *Power* || *SB-24* || *SB-80-DX* || *SB800* ||
-|| 1/1 || 1500 µs || 8000 µs || 8400 µs || 
-|| 1/2 || 640  µs || 650 µs || 1045 µs || 
-|| 1/4 || 320  µs || 335  µs || 520 µs || 
-|| 1/8 || 190  µs || 210  µs || 285 µs || 
-|| 1/16 || 130  µs || 140 µs || 170 µs || 
-|| 1/32 || 90  µs || 98 µs || 119 µs || 
-|| 1/64 || 70  µs || 75 µs || 85 µs || 
+|| *Power* || *SB-24* || *SB-80-DX* || *SB800* || *SB-25* || *SB-28DX* || *Metz 60 CT-1* ||
+|| 1/1 || 1500 µs || 8000 µs || 8400 µs || 1000 µs || 1190 µs || 5000 µs ||
+|| 1/2 || 640  µs || 650 µs || 1045 µs || 910 µs || 910 µs || 2000 µs ||
+|| 1/4 || 320  µs || 335  µs || 520 µs || 370 µs || 430 µs || 1000 µs ||
+|| 1/8 || 190  µs || 210  µs || 285 µs || 180 µs || 210 µs || 500 µs ||
+|| 1/16 || 130  µs || 140 µs || 170 µs || 90 µs || 110 µs || 330 µs ||
+|| 1/32 || 90  µs || 98 µs || 119 µs || ? || 50 µs || 220 µs ||
+|| 1/64 || 70  µs || 75 µs || 85 µs || ? || 30 µs || 160 µs ||
 
-*Note:* The timings for SB-24 are tested with SPOT, SB-80-DX and SB-800 were measured with different hardware (see http://www.flickr.com/photos/fotoopa_hs/3709381751/in/set-72157611107153997/).
+*Note* 
+ * SB-24 timings were measured with a SPOT
+ * SB-80-DX and SB-800 were measured with different hardware (see http://www.flickr.com/photos/fotoopa_hs/3709381751/in/set-72157611107153997/).
+ * SB-25 and SB-28DX timings were taken from the Nikon manual
+ * Metz timings: source unknown!
