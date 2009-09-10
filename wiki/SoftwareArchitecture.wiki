@@ -220,3 +220,16 @@ After receiving a valid set power command the receiver waits for 1ms (to give th
 
 
 }}}
+
+== Quench timings for different flash models ==
+
+_1 µs = 1 micro second = 10E-6 s = 1/1.000.000 s_
+
+|| *Power* || *SB-24* ||
+|| 1/1 || 1500 µs ||
+|| 1/2 || 640  µs ||
+|| 1/4 || 320  µs ||
+|| 1/8 || 190  µs ||
+|| 1/16 || 130  µs ||
+|| 1/32 || 90  µs ||
+|| 1/64 || 70  µs ||
