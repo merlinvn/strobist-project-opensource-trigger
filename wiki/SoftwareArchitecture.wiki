@@ -234,8 +234,7 @@ _1 µs = 1 micro second = 10E-6 s = 1/1.000.000 s_
 || 1/32 || 90  µs || 98 µs || 119 µs || ? || 50 µs || 220 µs ||
 || 1/64 || 70  µs || 75 µs || 85 µs || ? || 30 µs || 160 µs ||
 
-*Note* 
- * SB-24 timings were measured with a SPOT
+*Note* Only the SB-24 timings were measured with a SPOT!
+
  * SB-80-DX and SB-800 were measured with different hardware (see http://www.flickr.com/photos/fotoopa_hs/3709381751/in/set-72157611107153997/).
- * SB-25 and SB-28DX timings were taken from the Nikon manual
- * Metz timings: source unknown!
+ * SB-25, SB-28DX and Metz timings are not quench times but flash burn times - that's a difference! Nonetheless these values may serve as a starting point for getting the quench timings right.
