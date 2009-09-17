@@ -8,7 +8,7 @@
  * Create a folder
  * Don't bother with the next page (debugging options), just finish.
 
- * Copy the .c and .h files in the newly created folder
+ * Download / copy the .c and .h files into the newly created folder
 
 = 2. Add source files =
 
