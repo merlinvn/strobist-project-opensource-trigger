@@ -1,0 +1,19 @@
+#summary How to build the software with AVR-Studio
+
+= 1. Create a new GCC-Project =
+
+
+
+ * Do not create an initial file
+ * Create a folder
+ * Don't bother with the next page (debugging options), just finish.
+
+ * Copy the .c and .h files in the newly created folder
+
+= 2. Add source files =
+
+
+= 3. Add header files =
+
+
+= 4. Build =
