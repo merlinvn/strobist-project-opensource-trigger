@@ -12,9 +12,13 @@
 
 = 2. Add source files =
 
+Right-click on the source-files folder and select "Add Existing Source File(s)..."
+
 <a href="http://www.flickr.com/photos/9601007@N03/3929283935/" title="02-AddSourceFiles von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3491/3929283935_2019e9261d_o.jpg" width="564" height="416" alt="02-AddSourceFiles" /></a>
 
 = 3. Add header files =
+
+Right-click on the header-files folder and select "Add Existing Header File(s)..."
 
 <a href="http://www.flickr.com/photos/9601007@N03/3929283999/" title="03-AddHeaderFiles von Till_Hamburg bei Flickr"><img src="http://farm3.static.flickr.com/2464/3929283999_ccfbe4c2c5_o.jpg" width="559" height="413" alt="03-AddHeaderFiles" /></a>
 
