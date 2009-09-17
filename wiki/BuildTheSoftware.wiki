@@ -22,4 +22,6 @@
 
 <a href="http://www.flickr.com/photos/9601007@N03/3929284075/" title="04-ConfigureProject von Till_Hamburg bei Flickr"><img src="http://farm4.static.flickr.com/3529/3929284075_15e1a9a696_o.jpg" width="572" height="433" alt="04-ConfigureProject" /></a>
 
+ * 8MHz
+ * ATMega 8
 = 5. Build =
