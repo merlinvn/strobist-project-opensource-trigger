@@ -1,0 +1,17 @@
+#summary How to build a SPOT
+
+= Hardware =
+== Find the parts ==
+=== Display ===
+=== Radio module ===
+=== Other stuff ===
+== Build the case ==
+== Soldering ==
+== Loading the firmware ==
+
+= Software =
+== Set up the development environment (AVR-Studio, without CVS) ==
+== Set up the development environment (Eclipse with CVS) ==
+
+
+
