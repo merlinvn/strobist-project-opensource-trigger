@@ -10,8 +10,7 @@
 == Loading the firmware ==
 
 = Software =
-== Set up the development environment (AVR-Studio, without CVS) ==
+== Set up the development environment (AVR-Studio, without SVN) ==
  * Download [http://www.atmel.com/dyn/Products/tools_card.asp?tool_id=2725 AVR-Studio]
  * BuildTheSoftware
-== Set up the development environment (Eclipse with CVS) ==
-
+== Set up the development environment (Eclipse with SVN) ==
