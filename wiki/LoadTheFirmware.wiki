@@ -1,4 +1,4 @@
-#summary How to fuse the MC and load the spot.hex onto it
+#summary How to fuse the MC and load the spot.hex onto it / by Erwin
 #labels Phase-Deploy
 
 = Hardware prerequisites =
@@ -13,17 +13,17 @@ There are a couple of things you need to take in order before you can load the f
 
 Inside AVRStudio you need to select Tools, Program AVR, Connect... You get the choice for the right board and COM port. I choose STK500 at port COM3. Once connected you get to choose the right Device: ATMega8. And you need to choose the right programming mode and frequency. ISP Mode and 115KHz is a safe value. After that you click on the button Read Signature. If you recieve an error, there's something wrong. Made a mistake with the pinout, the circuit doesn't have power, or so further.
 
-[PHOTO ISP Frequency]
+_Screenshot ISP Frequency_
 
 The next part is setting the Fuses correct. The option CKOPT can be left off. In the dropdown of SUT_CKSEL you need to choose the right option. In my case, without the crystal I've choosen Int RC. 8MHZ 6 CK 64ms. To use the crystal, for a more stable and accurate clock, you'd choose Ext RC. 8MHz 16K CK 65 ms. Be carefull not to touch SPIEN and RSTDISBL. If you mark them, you won't be able to program this way anymore. Press program, and verify after that. The new settings are now programmed into the chip. After an restart the new settings are ready.
 
-[PHOTO Fuses]
+_Screenshot Fuses_
 
 = Loading the firmware =
 Now we need to program the spot.hex into the chip. Go to the program tab. In the flash-part browse to the location of spot.hex. Press the button Program. The software will do some things, and when it's ready you push verify. Now you're able to check if the programming is done. If so, you're ready.
 
-[PHOTO Program]
+_Screenshot Program_
 
 Leave the programmer and disconnect the wires. Reconnect the LCD Display and reconnect the battery's. Now your SPOT should start to breath :)
 
-[PHOTO Alive SPOT]
+_Picture: Alive SPOT_
