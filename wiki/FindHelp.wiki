@@ -33,7 +33,7 @@ I started with a combination of different tools and testboards. Eventually I wan
 
 = DIY =
  * Tangent Tutorials: Getting Started Soldering (and more) http://tangentsoft.net/elec/movies/
- * [http://www.techbites.com/20091011698/myblog/articles/z001c-how-to-make-printed-circuit-boards.html How to make printed circuit boards]
+ * Joe Farr: [http://www.techbites.com/20091011698/myblog/articles/z001c-how-to-make-printed-circuit-boards.html How to make printed circuit boards]
 
 = Flash "Personalities" =
  * Minolta/Sony Flash http://www.mhohner.de/sony-minolta/flashcomp_techref.php#newshoe
