@@ -17,3 +17,4 @@
  * Design a project logo
    * Spotted animals: Dalmatian (friendly, stylish), Cheetah (fast), ...?
    * Something in a "spot" of light: Hot shoe flash, “SPOT”, ...
+ * Good idea in the comments: Freemask function (http://www.youtube.com/watch?v=JdY_4-xhRs0)
