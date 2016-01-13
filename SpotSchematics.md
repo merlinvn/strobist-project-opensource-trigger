@@ -1,0 +1,1 @@
+<a href='http://www.flickr.com/photos/9601007@N03/3421151642/' title='Spot-Layout von Till_Hamburg bei Flickr'><img src='http://farm4.static.flickr.com/3662/3421151642_29c26090e3_o.png' alt='Spot-Layout' width='1106' height='701' /></a>
